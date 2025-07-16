@@ -1,0 +1,65 @@
+.main-grid{
+    margin-left: 360px;
+    margin-top: 100px;
+    column-gap:30px;
+    
+}
+.pfp1,.pfp2,.pfp3{
+    width:100%;
+    height:250px;
+
+}
+.mypfp{
+    width:35px;
+    border-radius: 20px;
+    margin-top:7px;
+    margin-left:7px;
+}
+.mf2,.mf3,.mf4{
+    margin-top:0;
+    margin-top:15px;
+    margin-left: 37px;
+    color:#606060;
+    font-size:16px;
+    font-family: Arial;
+    width:150px;
+}
+.name{
+    margin-top:0;
+    margin-bottom:0;
+    font-family: Arial;
+    font-weight: bold;
+    font-size:20px;
+    margin-left:7px;
+    margin-top:10px;
+}
+.addbutton{
+    background-color: rgb(115, 115, 255);
+    border:none;
+    color:white;
+    padding-left:21px;
+    padding-right:21px;
+    padding-top:12px;
+    padding-bottom:12px;
+    font-family:Arial;
+    margin-left:8px;
+    font-size:17px;
+    border-radius: 5px;
+    margin-top:10px;
+}
+.addbutton:hover{
+    cursor:pointer;
+}
+.inside-grid{
+    vertical-align: top;
+}
+.footer{
+    color:#606060;
+    font-family: Arial;
+    text-align: center;
+    margin-top:400px;   
+}
+.oliver,.mimi,.rex{
+    box-shadow:5px 0px 5px 5px rgba(0,0,0,0.2);
+    padding-bottom:10px;
+}

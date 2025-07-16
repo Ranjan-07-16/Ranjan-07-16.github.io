@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid | Work</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-grid" style="display: grid; grid-template-columns: 230px 230px 230px;">
+        <div class="oliver">
+            <div>
+                <img class="pfp1" src="oliver.jpg">
+            </div>
+            <div>
+                <p class="name">Oliver</p>
+                <div class="inside-grid" style="display: grid;grid-template-columns: 15px 1fr;">
+                    <div><img class="mypfp" src="me.jpg"></div>
+                    <div><p class="mf2">2 mutual friends</p></div>
+                </div>
+                <button class="addbutton" onclick="addButtonfunction()">Add Friend</button>
+            </div>
+        </div>
+        <div class="mimi">
+            <div>
+                <img class="pfp2" src="mimi.jpg">
+            </div>
+            <div>
+                <p class="name">Mimi</p>
+                <div class="inside-grid" style="display:grid;grid-template-columns: 15px 1fr;">
+                    <div><img class="mypfp" src="me.jpg"></div>
+                    <div><p class="mf3">3 mutual friends</p></div>
+                </div>
+                <button class="addbutton" onclick="addButtonfunction()">Add Friend</button>
+            </div>
+        </div>
+        <div class="rex">
+            <div>
+                <img class="pfp3" src="rex.jpg">
+            </div>
+            <div>
+                <p class="name">Rex</p>
+                <div class="inside-grid" style="display:grid;grid-template-columns: 15px 1fr;">
+                    <div><img class="mypfp" src="me.jpg"></div>
+                    <div><p class="mf4">4 mutual friends</p></div>
+                </div>
+                <button class="addbutton" onclick="addButtonfunction()">Add Friend</button>
+            </div>
+        </div>
+    </div>
+    <p class="footer">#2025 @copyrightclaims twitter.com</p>
+    <script>
+        function addButtonfunction()
+        {
+            alert("Bohot tej ho rhe ho aein Bohot tej ho rhe ho");
+        }
+    </script>
+</body>
+</html>
